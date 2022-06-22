@@ -1,0 +1,30 @@
+{
+  "name": "wallet-utils-create",
+  "version": "1.0.19",
+  "description": "create sdk of wallet",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec --timeout 2000 --recursive tests/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1648045459/wallet-sdk.git"
+  },
+  "keywords": [
+    "read",
+    "write"
+  ],
+  "author": "狸花猫",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/1648045459/wallet-sdk/issues"
+  },
+  "homepage": "https://github.com/1648045459/wallet-sdk#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "asmcrypto.js": "^2.3.2",
+    "ethereumjs-util": "^7.1.4",
+    "ethereumjs-wallet": "^1.0.2",
+    "nanoid": "^3.3.3"
+  }
+}
