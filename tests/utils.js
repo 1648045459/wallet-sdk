@@ -1,12 +1,13 @@
 /*
  * @Descripttion: 
  * @Date: 2022-04-12 18:18:24
- * @LastEditTime: 2022-06-22 17:11:04
+ * @LastEditTime: 2022-06-22 18:23:05
  */
 var utils = require('../lib/utils.js')
 
 describe('utils:功能测试', function () {
   describe('utils.createWallet', async function () {
+    console.log(utils)
     try {
       const length = 0
       for (let index = 0; index <= length; index++) {

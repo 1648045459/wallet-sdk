@@ -1,6 +1,6 @@
 {
   "name": "wallet-utils-create",
-  "version": "1.0.19",
+  "version": "1.0.25",
   "description": "create sdk of wallet",
   "main": "index.js",
   "scripts": {

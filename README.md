@@ -9,10 +9,10 @@ npm i wallet-utils-create --save
 
 异步处理（async + await）：
 ```
-import { createWallet,decryptMasterKey } from 'wallet-utils-create'
+import walletSdk from 'wallet-utils-create';
 
 const password = "123456"
-await createWallet(password)
+await walletSdk.createWallet(password)
 
 >
 {
@@ -26,7 +26,7 @@ await createWallet(password)
 }
 
 
-await decryptMasterKey(saltRandom, cryptographicAuthenticationMasterKeyHex, password)
+await walletSdk.decryptMasterKey(saltRandom, cryptographicAuthenticationMasterKeyHex, password)
 
 >
 {
